@@ -3,7 +3,6 @@
 
 int main(int argc, char** argv) {
 
-
     while(true) {
         puts((argc == 1) ? "y" : argv[1]);
     }
