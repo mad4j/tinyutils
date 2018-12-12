@@ -8,7 +8,7 @@ int main() {
     while ((c = getchar()) != EOF) {
 
         if ((count % 16) == 0) {
-            printf("\n %08lu ", count);
+            printf("\n %08lx ", count);
         }
 
         printf(" %02x", c);
@@ -16,7 +16,7 @@ int main() {
         count++;
     }
 
-    printf("\n");
+    printf("\n %08lx\n", count);
 
     return count;
 }
