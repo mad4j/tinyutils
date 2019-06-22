@@ -1,5 +1,5 @@
 # tinyutils
-very small but still useful command line tools 
+very small but still useful command line tools (see [LICENSE](LICENSE) file)
 
 ## basename
 returns the last part of a given path ([code](basename.c))
