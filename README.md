@@ -16,5 +16,8 @@ dumps the content of a file on the standard output adding line numbers
 ## rot13
 performs simple rotation 13 character translation
 
+## yes
+respond 'yes' to any question
 
-
+## zeros
+ouput the value 0 on the standard output
