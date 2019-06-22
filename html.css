@@ -20,8 +20,12 @@
      content: "<link rel='" attr(rel) "' type='" attr(type)"' href='" attr(href) "'>" 
 }
 
+meta[charset]::before {
+     content: "<meta charset='" attr(charset) "'>" 
+}
+
 meta::before {
-     content: "<meta anme='" attr(name) "' content='" attr(content)"'>" 
+     content: "<meta name='" attr(name) "' content='" attr(content) "'>" 
 }
 
 /* special escaping for close style */
