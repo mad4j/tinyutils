@@ -20,6 +20,10 @@
      content: "<link rel='" attr(rel) "' type='" attr(type)"' href='" attr(href) "'>" 
 }
 
+meta::before {
+     content: "<meta anme='" attr(name) "' content='" attr(content)"'>" 
+}
+
 /* special escaping for close style */
  style::before {
      content:'<style>' 
