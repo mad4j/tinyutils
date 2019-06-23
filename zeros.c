@@ -1,3 +1,8 @@
+/** 
+ * zeros - continuosly outputs the value 0 on the standard output
+ * daniele.olmisani@gmail.com 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
