@@ -1,6 +1,10 @@
 /** 
- * zc - counts 0 bits
- * daniele.olmisani@gmail.com 
+ * zeroc - counts zero bits
+ * https://mad4j.github.io/tinyutils/
+ * 
+ * daniele.olmisani@gmail.com
+ * 
+ * see LICENSE file
  */
 
 #include <stdio.h>
@@ -53,7 +57,6 @@ int main(int argc, char** argv)
     bool longReportFlag = false;
 
     int c = 0;
-
     while ((c = getopt(argc, argv, "lh")) != -1) {
         switch (c) {
         case 'l':
