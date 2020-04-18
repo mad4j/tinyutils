@@ -22,7 +22,7 @@ unsigned char ZEROS[] = {
     3,  4,  4,  5,  4,  5,  5,  6,  3,  4,  4,  5,  4,  5,  5,  6,  4,  5,  5,  6,  5,  6,  6,  7,  
     2,  3,  3,  4,  3,  4,  4,  5,  3,  4,  4,  5,  4,  5,  5,  6,  3,  4,  4,  5,  4,  5,  5,  6,  
     4,  5,  5,  6,  5,  6,  6,  7,  3,  4,  4,  5,  4,  5,  5,  6,  4,  5,  5,  6,  5,  6,  6,  7,  
-    4,  5,  5,  6,  5,  6,  6,  7,  5,  6,  6,  7,  6,  7,  7,  8,
+    4,  5,  5,  6,  5,  6,  6,  7,  5,  6,  6,  7,  6,  7,  7,  8
 };
 
 
@@ -41,7 +41,7 @@ void report(bool longReportFlag, unsigned long zerosCount, unsigned long totalCo
         printf("%ld / %ld (%2.2f%%)\n", 
             zerosCount, 
             totalCount, 
-            100 * ((double)zerosCount / totalCount)
+            100 * ((double)zerosCount / (double)totalCount)
         );
     } else {
         printf("%ld", zerosCount);
