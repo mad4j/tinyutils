@@ -1,5 +1,5 @@
 /** 
- * zeroc - counts zero bits
+ * zeroc - counts 0 bits on the standard input
  * https://mad4j.github.io/tinyutils/
  * 
  * daniele.olmisani@gmail.com
